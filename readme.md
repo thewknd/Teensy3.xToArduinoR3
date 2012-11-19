@@ -1,3 +1,7 @@
-This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+==Download==
+Go to "Tags" and chose the correct version
 
-http://creativecommons.org/licenses/by/3.0/
+==License==
+Except where otherwise noted, this work is licensed under 
+
+http://creativecommons.org/licenses/by-sa/3.0/
