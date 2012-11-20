@@ -1,5 +1,5 @@
 ## Download
-Go to "Tags" and chose the correct version
+Go to "Tags" and choose the correct version
 
 ## License
 Except where otherwise noted, this work is licensed under 
