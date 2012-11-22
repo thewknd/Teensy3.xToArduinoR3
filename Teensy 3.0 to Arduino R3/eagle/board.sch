@@ -9571,6 +9571,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="JP12" library="adafruit" deviceset="PINHD-1X13" device="_BIG"/>
 <part name="JP13" library="adafruit" deviceset="PINHD-1X13" device="_BIG"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="P+3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9656,12 +9658,14 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <instance part="SJ2" gate="1" x="177.8" y="63.5" rot="R180"/>
 <instance part="P+4" gate="G$1" x="203.2" y="60.96"/>
 <instance part="JP10" gate="G$1" x="147.32" y="40.64" rot="R90"/>
-<instance part="S1" gate="S" x="177.8" y="96.52"/>
+<instance part="S1" gate="S" x="177.8" y="91.44"/>
 <instance part="BAT1" gate="G$1" x="238.76" y="48.26"/>
-<instance part="JP11" gate="G$1" x="210.82" y="96.52" rot="R180"/>
+<instance part="JP11" gate="G$1" x="210.82" y="91.44" rot="R180"/>
 <instance part="JP12" gate="A" x="185.42" y="147.32"/>
 <instance part="JP13" gate="A" x="195.58" y="147.32" rot="R180"/>
 <instance part="JP14" gate="G$1" x="251.46" y="93.98" rot="R180"/>
+<instance part="R3" gate="G$1" x="187.96" y="96.52" rot="R90"/>
+<instance part="P+3" gate="G$1" x="187.96" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -9740,11 +9744,11 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <pinref part="JP13" gate="A" pin="1"/>
 </segment>
 <segment>
-<wire x1="172.72" y1="96.52" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<label x="165.1" y="96.52" size="1.778" layer="95"/>
+<wire x1="172.72" y1="91.44" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="165.1" y="91.44" size="1.778" layer="95"/>
 <pinref part="S1" gate="S" pin="1"/>
-<junction x="172.72" y="96.52"/>
+<junction x="172.72" y="91.44"/>
 <pinref part="S1" gate="S" pin="2"/>
 </segment>
 <segment>
@@ -10123,6 +10127,10 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <wire x1="243.84" y1="93.98" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
 <label x="236.22" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="P+3" gate="G$1" pin="3.3V"/>
+</segment>
 </net>
 <net name="A9" class="0">
 <segment>
@@ -10342,8 +10350,8 @@ http://creativecommons.org/licenses/by-sa/3.0/
 </segment>
 <segment>
 <pinref part="JP11" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
-<label x="193.04" y="93.98" size="1.778" layer="95"/>
+<wire x1="203.2" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
+<label x="193.04" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A13" class="0">
@@ -10402,8 +10410,8 @@ http://creativecommons.org/licenses/by-sa/3.0/
 </segment>
 <segment>
 <pinref part="JP11" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
-<label x="193.04" y="99.06" size="1.778" layer="95"/>
+<wire x1="203.2" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="193.04" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -10477,17 +10485,18 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <label x="96.52" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="96.52" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="S1" gate="S" pin="3"/>
-<junction x="182.88" y="96.52"/>
+<junction x="182.88" y="91.44"/>
 <pinref part="S1" gate="S" pin="4"/>
 <pinref part="JP11" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="88.9" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
-<junction x="187.96" y="96.52"/>
-<label x="165.1" y="88.9" size="1.778" layer="95"/>
+<wire x1="187.96" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="83.82" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<junction x="187.96" y="91.44"/>
+<label x="165.1" y="83.82" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
