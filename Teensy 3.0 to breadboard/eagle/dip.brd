@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -94,7 +94,6 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -155,7 +154,7 @@
 <text x="57.023" y="20.066" size="0.8128" layer="25" rot="SR180">A12</text>
 <text x="59.563" y="20.066" size="0.8128" layer="25" rot="SR180">A11</text>
 <text x="62.103" y="20.066" size="0.8128" layer="25" rot="SR180">A10</text>
-<text x="48.895" y="8.128" size="1.27" layer="25">tinytiger.ch
+<text x="50.8" y="8.128" size="1.27" layer="25">tinytiger.ch
 V000001</text>
 <rectangle x1="45.72" y1="7.62" x2="46.99" y2="8.89" layer="25"/>
 <rectangle x1="45.72" y1="10.16" x2="46.99" y2="11.43" layer="25"/>
