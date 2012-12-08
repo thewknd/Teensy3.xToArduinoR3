@@ -13,12 +13,13 @@
 - micro SD card holder
 
 ## Download
+- V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3.zip
 - V2: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V2.zip
 - V1: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V1_final.zip
 
 ## History
 
-### V2
+### V3
 - 4 i2c eeprom
 - micro SD Card holder
 

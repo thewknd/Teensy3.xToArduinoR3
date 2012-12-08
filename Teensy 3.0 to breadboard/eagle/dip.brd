@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -130,30 +130,30 @@
 <text x="55.118" y="0.254" size="0.8128" layer="25">31</text>
 <text x="57.658" y="0.254" size="0.8128" layer="25">32</text>
 <text x="60.452" y="0.254" size="0.8128" layer="25">33</text>
-<text x="3.429" y="20.066" size="0.8128" layer="25" rot="SR180">VIN</text>
-<text x="6.223" y="20.066" size="0.6096" layer="25" rot="SR180">AGND</text>
-<text x="8.763" y="20.066" size="0.8128" layer="25" rot="SR180">3V3</text>
+<text x="3.175" y="20.066" size="0.8128" layer="25" rot="SR180">VIN</text>
+<text x="6.477" y="20.066" size="0.8128" layer="25" rot="SR180">AGND</text>
+<text x="9.017" y="20.066" size="0.8128" layer="25" rot="SR180">3V3</text>
 <text x="10.795" y="20.066" size="0.8128" layer="25" rot="SR180">A9</text>
 <text x="13.335" y="20.066" size="0.8128" layer="25" rot="SR180">A8</text>
 <text x="15.875" y="20.066" size="0.8128" layer="25" rot="SR180">A7</text>
-<text x="18.415" y="20.066" size="0.8128" layer="25" rot="SR180">A6</text>
-<text x="20.955" y="20.066" size="0.8128" layer="25" rot="SR180">A5</text>
-<text x="23.495" y="20.066" size="0.8128" layer="25" rot="SR180">A4</text>
-<text x="26.035" y="20.066" size="0.8128" layer="25" rot="SR180">A3</text>
-<text x="28.575" y="20.066" size="0.8128" layer="25" rot="SR180">A2</text>
-<text x="31.115" y="20.066" size="0.8128" layer="25" rot="SR180">A1</text>
-<text x="33.655" y="20.066" size="0.8128" layer="25" rot="SR180">A0</text>
-<text x="36.195" y="20.066" size="0.8128" layer="25" rot="SR180">13</text>
-<text x="39.243" y="20.066" size="0.6096" layer="25" rot="SR180">VBAT</text>
-<text x="41.783" y="20.066" size="0.8128" layer="25" rot="SR180">GND</text>
-<text x="44.323" y="20.066" size="0.6096" layer="25" rot="SR180">VUSB</text>
-<text x="46.355" y="20.066" size="0.6096" layer="25" rot="SR180">RST</text>
-<text x="49.149" y="20.066" size="0.6096" layer="25" rot="SR180">AREF</text>
-<text x="51.943" y="20.066" size="0.8128" layer="25" rot="SR180">PRG</text>
-<text x="54.483" y="20.066" size="0.8128" layer="25" rot="SR180">A13</text>
-<text x="57.023" y="20.066" size="0.8128" layer="25" rot="SR180">A12</text>
-<text x="59.563" y="20.066" size="0.8128" layer="25" rot="SR180">A11</text>
-<text x="62.103" y="20.066" size="0.8128" layer="25" rot="SR180">A10</text>
+<text x="18.161" y="20.066" size="0.8128" layer="25" rot="SR180">A6</text>
+<text x="20.701" y="20.066" size="0.8128" layer="25" rot="SR180">A5</text>
+<text x="23.241" y="20.066" size="0.8128" layer="25" rot="SR180">A4</text>
+<text x="25.781" y="20.066" size="0.8128" layer="25" rot="SR180">A3</text>
+<text x="28.321" y="20.066" size="0.8128" layer="25" rot="SR180">A2</text>
+<text x="30.861" y="20.066" size="0.8128" layer="25" rot="SR180">A1</text>
+<text x="33.401" y="20.066" size="0.8128" layer="25" rot="SR180">A0</text>
+<text x="35.941" y="20.066" size="0.8128" layer="25" rot="SR180">13</text>
+<text x="38.989" y="20.066" size="0.8128" layer="25" rot="SR180">VBAT</text>
+<text x="41.275" y="20.066" size="0.8128" layer="25" rot="SR180">GND</text>
+<text x="44.577" y="20.066" size="0.8128" layer="25" rot="SR180">VUSB</text>
+<text x="46.863" y="20.066" size="0.8128" layer="25" rot="SR180">RST</text>
+<text x="49.911" y="20.066" size="0.8128" layer="25" rot="SR180">AREF</text>
+<text x="52.197" y="20.066" size="0.8128" layer="25" rot="SR180">PRG</text>
+<text x="54.737" y="20.066" size="0.8128" layer="25" rot="SR180">A13</text>
+<text x="57.277" y="20.066" size="0.8128" layer="25" rot="SR180">A12</text>
+<text x="59.817" y="20.066" size="0.8128" layer="25" rot="SR180">A11</text>
+<text x="62.357" y="20.066" size="0.8128" layer="25" rot="SR180">A10</text>
 <text x="50.8" y="8.128" size="1.27" layer="25">tinytiger.ch
 V000001</text>
 <rectangle x1="45.72" y1="7.62" x2="46.99" y2="8.89" layer="25"/>
