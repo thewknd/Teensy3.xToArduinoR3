@@ -15,7 +15,7 @@
 - series resistors for all arduino R3 pins
 
 ## Download
-- V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3-2.zip
+- V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3_final.zip
 - V2: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V2.zip
 - V1: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V1_final.zip
 
