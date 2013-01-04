@@ -8,9 +8,11 @@
 - Reset/Program Button
 - Arduino R3 compatible SPI header
 - I2C pullup resistors
+- external power supply
 - dcdc converter (78xx pinout)
 - 4 i2c eeprom
 - micro SD card holder
+- series resistors for all arduino R3 pins
 
 ## Download
 - V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3.zip
