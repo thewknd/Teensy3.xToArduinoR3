@@ -12,7 +12,10 @@
 - dcdc converter (78xx pinout)
 - 4 i2c eeprom
 - micro SD card holder
-- series resistors for all arduino R3 pins
+- XBee socket
+- WIZ820io socket
+- RS485 halfduplex
+- series resistors on all digital and analog io pins
 
 ## Download
 - V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3.zip
@@ -21,9 +24,16 @@
 
 ## History
 
+### V4
+- XBee socket
+- WIZ820io socket
+- RS485 halfduplex
+- series resistors on all digital and analog io pins
+
 ### V3
 - 4 i2c eeprom
 - micro SD Card holder
+- series resistors for all arduino R3 pins
 
 ### V2
 - All features from V1
