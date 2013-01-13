@@ -7,15 +7,18 @@
 - Battery holder for the RTC
 - Reset/Program Button
 - Arduino R3 compatible SPI header
-- I2C pullup resistors
+- TWI pullup resistors
 - external power supply
 - dcdc converter (78xx pinout)
-- 4 i2c eeprom
+- 4 TWI eeprom
 - micro SD card holder
 - XBee socket
 - WIZ820io socket
-- RS485 halfduplex
-- series resistors on all digital and analog io pins
+- RS485 halfduplex (LTC485 compatible pinout)
+- Series resistors on all digital and analog io pins
+- Miniature variometer module TWI (MS5803-01BA) 
+- Temperature sensor TWI (TMP102)
+- Li-Battery charger (MCP73871)
 
 ## Download
 - V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3.zip
@@ -27,11 +30,15 @@
 ### V4
 - XBee socket
 - WIZ820io socket
-- RS485 halfduplex
-- series resistors on all digital and analog io pins
+- RS485 halfduplex (LTC485 compatible pinout)
+- Series resistors on all digital and analog io pins
+- Miniature variometer module TWI (MS5803-01BA) 
+- Temperature sensor TWI (TMP102)
+- Li-Battery charger (MCP73871)
+
 
 ### V3
-- 4 i2c eeprom
+- 4X EEPROM TWI (24AA1025)
 - micro SD Card holder
 - series resistors for all arduino R3 pins
 
@@ -39,8 +46,8 @@
 - All features from V1
 - All Teensy 3.0 pins accessible
 - Arduino R3 compatible SPI header
-- I2C pullup resistors
-- dcdc converter (78xx pinout)
+- TWI pullup resistors
+- DCDC converter (78xx pinout)
 
 ### V1
 - Arduino R3 layout
