@@ -1,8 +1,6 @@
-## Teensy 3.0 to Arduino R3 breakout
+# Teensy 3.0 to Arduino R3 breakout
 
 ## Features
-- Teensy 3.0 to breadbord breakout
-- Teensy 3.0 to Arduino R3 breakout
 - All Teensy 3.0 pins accessible 
 - Battery holder for the RTC
 - Reset/Program Button
@@ -43,8 +41,6 @@
 - series resistors for all arduino R3 pins
 
 ### V2
-- All features from V1
-- All Teensy 3.0 pins accessible
 - Arduino R3 compatible SPI header
 - TWI pullup resistors
 - DCDC converter (78xx pinout)
