@@ -18,12 +18,12 @@
 
 
 top
-![top image](https://github.com/thewknd/Teensy3.0ToArduinoR3/blob/V5/top.png)
+![top image](https://raw.github.com/thewknd/Teensy3.0ToArduinoR3/blob/V5/top.png)
 Format: ![Alt Text](url)
 
 
 bottom
-![bottom image](https://github.com/thewknd/Teensy3.0ToArduinoR3/blob/V5/bottom.png)
+![bottom image](https://raw.github.com/thewknd/Teensy3.0ToArduinoR3/blob/V5/bottom.png)
 Format: ![Alt Text](url)
 
 
