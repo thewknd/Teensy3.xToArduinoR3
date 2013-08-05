@@ -15,6 +15,18 @@
 - USB to Serial converter (FT232RL) attached to Teensy Serial3
 - series resistors for all arduino R3 pins
 
+
+
+top
+![top image](https://github.com/thewknd/Teensy3.0ToArduinoR3/blob/V5/top.png)
+Format: ![Alt Text](url)
+
+
+bottom
+![bottom image](https://github.com/thewknd/Teensy3.0ToArduinoR3/blob/V5/bottom.png)
+Format: ![Alt Text](url)
+
+
 ## License
 Except where otherwise noted, this work is licensed under 
 
