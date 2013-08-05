@@ -1,43 +1,19 @@
 ## Teensy 3.0 to Arduino R3 breakout
 
 ## Features
-- Teensy 3.0 to breadbord breakout
-- Teensy 3.0 to Arduino R3 breakout
+- Arduino R3 Shiald compatible header
 - All Teensy 3.0 pins accessible 
 - Battery holder for the RTC
+- micro SD card holder
 - Reset/Program Button
-- Arduino R3 compatible SPI header
 - I2C pullup resistors
 - external power supply
-- dcdc converter (78xx pinout)
-- 4 i2c eeprom
-- micro SD card holder
+- battery charger circuit
+- two dc dc converter (CJ1117)
+- XBee (pro) compatible socket
+- common nRF24L01(1) module pin header
+- USB to Serial converter (FT232RL) attached to Teensy Serial3
 - series resistors for all arduino R3 pins
-
-## Download
-- V3: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V3_final.zip
-- V2: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V2.zip
-- V1: https://github.com/thewknd/Teensy3.0ToArduinoR3/archive/V1_final.zip
-
-## History
-
-### V3
-- 4 i2c eeprom
-- micro SD Card holder
-
-### V2
-- All features from V1
-- All Teensy 3.0 pins accessible
-- Arduino R3 compatible SPI header
-- I2C pullup resistors
-- dcdc converter (78xx pinout)
-
-### V1
-- Arduino R3 layout
-- Basic breakout, D0 - D13, A0 - A5, 
-- Battery holder for the RTC
-- Reset Button
-
 
 ## License
 Except where otherwise noted, this work is licensed under 
