@@ -19,12 +19,10 @@
 
 top
 ![top image](https://raw.github.com/thewknd/Teensy3.0ToArduinoR3/V5/top.png)
-Format: ![Alt Text](url)
 
 
 bottom
 ![bottom image](https://raw.github.com/thewknd/Teensy3.0ToArduinoR3/V5/bottom.png)
-Format: ![Alt Text](url)
 
 
 ## License
