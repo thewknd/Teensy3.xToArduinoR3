@@ -1,7 +1,7 @@
 ## Teensy 3.0 to Arduino R3 breakout
 
 ## Features
-- Arduino R3 Shiald compatible header
+- Arduino R3 Shield compatible header
 - All Teensy 3.0 pins accessible 
 - Battery holder for the RTC
 - micro SD card holder
