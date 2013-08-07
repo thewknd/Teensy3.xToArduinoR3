@@ -14,6 +14,7 @@
 - common nRF24L01(1) module pin header
 - USB to Serial converter (FT232RL) attached to Teensy Serial3
 - series resistors for all arduino R3 pins
+- most parts are from Seeedstudios (new) OPLV1 (for more information: http://www.seeedstudio.com/wiki/Open_parts_library)
 
 
 
