@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="10" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="10" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="10" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="10" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="10" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="10" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -3999,19 +3999,19 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.&lt;br&gt;
 <smd name="1" x="-0.508" y="0" dx="0.6096" dy="0.8128" layer="1" rot="R90"/>
 <smd name="2" x="0.508" y="0" dx="0.6096" dy="0.8128" layer="1" rot="R90"/>
 <text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<wire x1="-1.0414" y1="0.508" x2="-1.0414" y2="-0.508" width="0.2032" layer="21"/>
-<wire x1="-1.0414" y1="-0.508" x2="1.0414" y2="-0.508" width="0.2032" layer="21"/>
-<wire x1="1.0414" y1="-0.508" x2="1.0414" y2="0.508" width="0.2032" layer="21"/>
-<wire x1="1.0414" y1="0.508" x2="-1.0414" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-1.1414" y1="0.508" x2="-1.1414" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-1.1414" y1="-0.508" x2="1.1414" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="1.1414" y1="-0.508" x2="1.1414" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="1.1414" y1="0.508" x2="-1.1414" y2="0.508" width="0.2032" layer="21"/>
 </package>
 <package name="JUMPER_LARGE_2WAY">
-<smd name="1" x="-0.635" y="0" dx="1.016" dy="0.889" layer="1" rot="R90"/>
-<smd name="2" x="0.635" y="0" dx="1.016" dy="0.889" layer="1" rot="R90"/>
+<smd name="1" x="-0.75" y="0" dx="1.143" dy="1.143" layer="1" rot="R90"/>
+<smd name="2" x="0.72" y="0" dx="1.143" dy="1.143" layer="1" rot="R90"/>
 <text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.762" x2="1.27" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.762" x2="-1.27" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-1.57" y1="0.762" x2="-1.57" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-1.57" y1="-0.762" x2="1.57" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="1.57" y1="-0.762" x2="1.57" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="1.57" y1="0.762" x2="-1.57" y2="0.762" width="0.2032" layer="21"/>
 </package>
 <package name="RF24">
 <pad name="GND" x="-1.27" y="3.81" drill="1" diameter="1.9304"/>
@@ -6138,22 +6138,22 @@ RIGHT =  With jumper to the right&lt;br&gt;</description>
 <wire x1="6.985" y1="-4.064" x2="-6.985" y2="-4.064" width="0.127" layer="21"/>
 <wire x1="-6.985" y1="-4.064" x2="-6.985" y2="4.064" width="0.127" layer="21"/>
 <wire x1="-6.985" y1="4.064" x2="6.985" y2="4.064" width="0" layer="39"/>
-<wire x1="11.176" y1="-1.397" x2="9.144" y2="-1.397" width="0.127" layer="21" curve="270"/>
-<wire x1="10.16" y1="-1.143" x2="10.16" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-1.143" x2="10.414" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-1.143" x2="9.906" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-0.508" x2="10.16" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-0.254" x2="10.033" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="10.033" y1="-0.381" x2="10.16" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-0.508" x2="10.287" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="10.287" y1="-0.381" x2="10.16" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="11.176" y1="-1.397" x2="9.144" y2="-1.397" width="0.127" layer="21" curve="270"/>
-<wire x1="10.16" y1="1.143" x2="10.16" y2="3.429" width="0.127" layer="21"/>
-<wire x1="10.16" y1="1.143" x2="10.414" y2="1.524" width="0.127" layer="21"/>
-<wire x1="10.16" y1="1.143" x2="9.906" y2="1.524" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-4.445" x2="10.16" y2="-3.429" width="0.127" layer="21"/>
-<wire x1="9.652" y1="-3.937" x2="10.668" y2="-3.937" width="0.127" layer="21"/>
-<wire x1="10.16" y1="3.683" x2="10.16" y2="4.699" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-5.969" x2="0.762" y2="-8.001" width="0.127" layer="21" curve="270"/>
+<wire x1="0.508" y1="-6.985" x2="2.54" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-6.985" x2="0.889" y2="-6.731" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-6.985" x2="0.889" y2="-7.239" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="-6.985" x2="-0.381" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-6.985" x2="-0.254" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-7.112" x2="-0.127" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="-6.985" x2="-0.254" y2="-6.858" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-6.858" x2="-0.381" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-5.969" x2="0.762" y2="-8.001" width="0.127" layer="21" curve="270"/>
+<wire x1="-1.778" y1="-6.985" x2="-4.064" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-6.985" x2="-2.159" y2="-6.731" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-6.985" x2="-2.159" y2="-7.239" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-6.985" x2="2.794" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="3.302" y1="-7.493" x2="3.302" y2="-6.477" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="-6.985" x2="-5.334" y2="-6.985" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-1.016" x2="3.81" y2="0.889" width="0.127" layer="46"/>
 <wire x1="3.81" y1="0.889" x2="2.032" y2="0.889" width="0.127" layer="46"/>
 <wire x1="2.032" y1="0.889" x2="2.54" y2="1.143" width="0.127" layer="46"/>
@@ -6164,14 +6164,14 @@ RIGHT =  With jumper to the right&lt;br&gt;</description>
 <wire x1="3.81" y1="-1.778" x2="3.81" y2="-2.794" width="0.127" layer="46"/>
 <wire x1="3.81" y1="-2.794" x2="3.556" y2="-2.286" width="0.127" layer="46"/>
 <wire x1="3.81" y1="-2.794" x2="4.064" y2="-2.286" width="0.127" layer="46"/>
-<circle x="10.16" y="-0.381" radius="0.6839" width="0.127" layer="21"/>
-<circle x="10.16" y="-0.381" radius="0.1796" width="0.127" layer="21"/>
-<circle x="10.16" y="-3.937" radius="0.7405" width="0.127" layer="21"/>
-<circle x="10.16" y="4.191" radius="0.7405" width="0.127" layer="21"/>
-<circle x="10.16" y="-0.381" radius="0.6839" width="0.127" layer="21"/>
-<circle x="10.16" y="-0.381" radius="0.1796" width="0.127" layer="21"/>
-<circle x="10.16" y="-3.937" radius="0.7405" width="0.127" layer="21"/>
-<circle x="10.16" y="4.191" radius="0.7405" width="0.127" layer="21"/>
+<circle x="-0.254" y="-6.985" radius="0.6839" width="0.127" layer="21"/>
+<circle x="-0.254" y="-6.985" radius="0.1796" width="0.127" layer="21"/>
+<circle x="3.302" y="-6.985" radius="0.7405" width="0.127" layer="21"/>
+<circle x="-4.826" y="-6.985" radius="0.7405" width="0.127" layer="21"/>
+<circle x="-0.254" y="-6.985" radius="0.6839" width="0.127" layer="21"/>
+<circle x="-0.254" y="-6.985" radius="0.1796" width="0.127" layer="21"/>
+<circle x="3.302" y="-6.985" radius="0.7405" width="0.127" layer="21"/>
+<circle x="-4.826" y="-6.985" radius="0.7405" width="0.127" layer="21"/>
 <pad name="-1" x="0.762" y="0.889" drill="0.8128" diameter="2.032" shape="long" rot="R90"/>
 <pad name="+" x="6.985" y="0.889" drill="0.8128" diameter="2.032" shape="long" rot="R90"/>
 <pad name="-2" x="3.81" y="-4.064" drill="0.8128" diameter="2.032" shape="long" rot="R180"/>
@@ -7594,12 +7594,96 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </deviceset>
 </devicesets>
 </library>
+<library name="OPL_20130807">
+<packages>
+<package name="F1812">
+<description>http://www.fuse-china.com/1812smdfuses.htm</description>
+<wire x1="-3.048" y1="1.651" x2="3.048" y2="1.651" width="0.127" layer="21"/>
+<wire x1="3.048" y1="-1.651" x2="-3.048" y2="-1.651" width="0.127" layer="21"/>
+<smd name="1" x="-2.159" y="0" dx="3.048" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="2.159" y="0" dx="3.048" dy="1.27" layer="1" rot="R90"/>
+<wire x1="-3.048" y1="1.651" x2="-3.048" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="3.048" y1="1.651" x2="3.048" y2="-1.651" width="0.127" layer="21"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.286" y="1.651"/>
+<vertex x="-1.905" y="1.651"/>
+<vertex x="-1.905" y="-1.651"/>
+<vertex x="-2.286" y="-1.651"/>
+<vertex x="-2.286" y="-0.381" curve="90"/>
+<vertex x="-2.032" y="0" curve="90"/>
+<vertex x="-2.286" y="0.381"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="2.286" y="-1.651"/>
+<vertex x="1.905" y="-1.651"/>
+<vertex x="1.905" y="1.651"/>
+<vertex x="2.286" y="1.651"/>
+<vertex x="2.286" y="0.381" curve="90"/>
+<vertex x="2.032" y="0" curve="90"/>
+<vertex x="2.286" y="-0.381"/>
+</polygon>
+<text x="-1.905" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="0" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.048" y1="-1.651" x2="3.048" y2="1.651" layer="39"/>
+</package>
+<package name="F1206">
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.159" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.159" y1="-1.016" x2="-2.159" y2="1.016" width="0.127" layer="21"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
+<text x="-1.905" y="1.27" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.778" y="0" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="-1.016" x2="2.159" y2="1.016" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FUSE">
+<wire x1="-1.016" y1="0" x2="0" y2="-1.016" width="0.254" layer="94" curve="-300.510237"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.254" layer="94" curve="-300.510237"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FUSE*" prefix="F">
+<gates>
+<gate name="F" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1812" package="F1812">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206" package="F1206">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 <variantdef name="no charger"/>
-<variantdef name="FULL"/>
+<variantdef name="FULL" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.1524" drill="0.3302">
@@ -7911,10 +7995,12 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <part name="C9" library="OPL" deviceset="C-POLAR*" device="-A" value="10uF/10V">
 <attribute name="SKU" value="0130040P1"/>
 <variant name="no charger" populate="no"/>
+<variant name="FULL" populate="no"/>
 </part>
 <part name="C10" library="OPL" deviceset="C-POLAR*" device="-C" value="100uF/10V">
 <attribute name="SKU" value="0130170P1"/>
 <variant name="no charger" populate="no"/>
+<variant name="FULL" populate="no"/>
 </part>
 <part name="C11" library="OPL" deviceset="C-POLAR*" device="-C" value="100uF/10V">
 <attribute name="SKU" value="0130170P1"/>
@@ -8009,6 +8095,15 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="SKU" value="0011090P1"/>
 <variant name="no charger" populate="no"/>
 </part>
+<part name="SJ17" library="thewknd" deviceset="JUMPER_2W" device="LARGE" value="JUMPER_2WLARGE"/>
+<part name="D14" library="OPL" deviceset="D*" device="-SMB" value="SS54B">
+<attribute name="SKU" value="0310130P1"/>
+</part>
+<part name="SJ18" library="thewknd" deviceset="JUMPER_2W" device="LARGE" value="JUMPER_2WLARGE"/>
+<part name="F2" library="OPL_20130807" deviceset="FUSE*" device="-1812" value="0.5A/15V">
+<attribute name="SKU" value="0900390P1"/>
+</part>
+<part name="SJ19" library="thewknd" deviceset="JUMPER_2W" device="LARGE" value="JUMPER_2WLARGE"/>
 </parts>
 <sheets>
 <sheet>
@@ -8263,6 +8358,18 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="VALUE" x="167.64" y="13.97" size="1.27" layer="96" font="vector" ratio="10"/>
 <attribute name="SKU" x="163.83" y="15.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
+<instance part="D14" gate="D" x="-18.415" y="146.05" smashed="yes">
+<attribute name="NAME" x="-22.225" y="150.495" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="-22.225" y="148.59" size="1.27" layer="96" ratio="10"/>
+<attribute name="SKU" x="-18.415" y="146.05" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ18" gate="G$1" x="-26.67" y="139.7" rot="R180"/>
+<instance part="F2" gate="F" x="-27.94" y="146.05" smashed="yes">
+<attribute name="NAME" x="-33.02" y="150.495" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="-33.02" y="148.59" size="1.27" layer="96" ratio="10"/>
+<attribute name="SKU" x="-27.94" y="146.05" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ19" gate="G$1" x="-40.005" y="146.05" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8990,6 +9097,16 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <pinref part="JP12" gate="A" pin="12"/>
 <label x="254" y="144.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-47.625" y1="139.7" x2="-47.625" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="-47.625" y1="146.05" x2="-55.88" y2="146.05" width="0.1524" layer="91"/>
+<pinref part="SJ18" gate="G$1" pin="2"/>
+<wire x1="-31.75" y1="139.7" x2="-47.625" y2="139.7" width="0.1524" layer="91"/>
+<label x="-55.88" y="146.05" size="1.778" layer="95"/>
+<pinref part="SJ19" gate="G$1" pin="2"/>
+<wire x1="-45.085" y1="146.05" x2="-47.625" y2="146.05" width="0.1524" layer="91"/>
+<junction x="-47.625" y="146.05"/>
+</segment>
 </net>
 <net name="PROG" class="0">
 <segment>
@@ -9220,6 +9337,17 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <pinref part="D2" gate="D" pin="-"/>
 <wire x1="27.94" y1="163.83" x2="29.21" y2="163.83" width="0.1524" layer="91"/>
 <junction x="29.21" y="163.83"/>
+<label x="36.83" y="163.83" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ18" gate="G$1" pin="1"/>
+<wire x1="-21.59" y1="139.7" x2="-12.7" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="139.7" x2="-12.7" y2="146.05" width="0.1524" layer="91"/>
+<pinref part="D14" gate="D" pin="-"/>
+<wire x1="-12.7" y1="146.05" x2="-14.605" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="146.05" x2="-6.35" y2="146.05" width="0.1524" layer="91"/>
+<junction x="-12.7" y="146.05"/>
+<label x="-12.7" y="146.05" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -9265,6 +9393,20 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="96.52" y1="113.03" x2="99.06" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="PAD6" gate="1" pin="P"/>
 <junction x="96.52" y="113.03"/>
+</segment>
+</net>
+<net name="N$59" class="1">
+<segment>
+<pinref part="D14" gate="D" pin="+"/>
+<pinref part="F2" gate="F" pin="2"/>
+<wire x1="-22.225" y1="146.05" x2="-22.86" y2="146.05" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="1">
+<segment>
+<pinref part="SJ19" gate="G$1" pin="1"/>
+<pinref part="F2" gate="F" pin="1"/>
+<wire x1="-34.925" y1="146.05" x2="-33.02" y2="146.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -9761,6 +9903,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <text x="96.52" y="93.98" size="1.778" layer="97">VREG2 OUT</text>
 <text x="43.18" y="93.98" size="1.778" layer="97">VREG2 IN</text>
 <text x="182.88" y="168.91" size="1.778" layer="97">CHG INPUT</text>
+<text x="238.76" y="137.16" size="1.778" layer="97">Battery</text>
+<text x="177.8" y="-101.6" size="1.778" layer="97">POWEREN#</text>
 </plain>
 <instances>
 <instance part="U$5" gate="G$1" x="0" y="0"/>
@@ -9990,12 +10134,12 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="SKU" x="81.28" y="-64.77" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND36" gate="1" x="81.28" y="-78.74"/>
-<instance part="R40" gate="R" x="162.56" y="-83.82" smashed="yes">
-<attribute name="NAME" x="157.48" y="-83.566" size="1.27" layer="95" font="vector" ratio="10"/>
-<attribute name="VALUE" x="157.48" y="-85.344" size="1.27" layer="96" font="vector" ratio="10"/>
-<attribute name="SKU" x="162.56" y="-83.82" size="1.778" layer="96" display="off"/>
+<instance part="R40" gate="R" x="170.18" y="-90.17" smashed="yes" rot="R90">
+<attribute name="NAME" x="165.1" y="-89.916" size="1.27" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="165.1" y="-91.694" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="SKU" x="170.18" y="-90.17" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="P+21" gate="G$1" x="168.91" y="-82.55"/>
+<instance part="P+21" gate="G$1" x="170.18" y="-83.82"/>
 <instance part="P+22" gate="1" x="157.48" y="168.91"/>
 <instance part="P+24" gate="VCC" x="148.59" y="168.91"/>
 <instance part="R35" gate="R" x="220.98" y="129.54" smashed="yes" rot="R90">
@@ -10007,6 +10151,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="215.9" y="139.7" size="1.27" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="215.9" y="137.16" size="1.27" layer="96" font="vector" ratio="10"/>
 <attribute name="SKU" x="220.98" y="138.43" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="SJ17" gate="G$1" x="177.8" y="-96.52" smashed="yes">
+<attribute name="NAME" x="180.34" y="-91.44" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10222,8 +10369,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </segment>
 <segment>
 <pinref part="R40" gate="R" pin="2"/>
-<wire x1="166.37" y1="-83.82" x2="168.91" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="168.91" y1="-83.82" x2="168.91" y2="-82.55" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-86.36" x2="170.18" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="P+21" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
@@ -10664,8 +10810,14 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <net name="N$56" class="2">
 <segment>
 <pinref part="U5" gate="U" pin="CBUS3"/>
-<wire x1="138.43" y1="-83.82" x2="158.75" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="-83.82" x2="154.94" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-83.82" x2="154.94" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-96.52" x2="170.18" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-96.52" x2="170.18" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="R40" gate="R" pin="1"/>
+<wire x1="170.18" y1="-96.52" x2="172.72" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="170.18" y="-96.52"/>
+<pinref part="SJ17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="NET45456" class="1">
@@ -10700,6 +10852,13 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="220.98" y1="134.62" x2="220.98" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="D6" class="0">
+<segment>
+<pinref part="SJ17" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="-96.52" x2="189.23" y2="-96.52" width="0.1524" layer="91"/>
+<label x="186.69" y="-96.52" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -10707,24 +10866,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <approved hash="102,2,236.22,165.1,VCC,3.3V,,,,"/>
 <approved hash="104,1,35.56,12.7,BAT1,-,GND,,,"/>
 <approved hash="104,1,25.4,12.7,BAT1,+,VBAT,,,"/>
-<approved hash="110,3,224.79,147.32,GND,N$36,,,,"/>
-<approved hash="110,3,224.79,147.32,GND,N$36,,,,"/>
-<approved hash="110,3,223.52,147.32,N$42,N$36,,,,"/>
-<approved hash="110,3,223.52,147.32,N$42,N$36,,,,"/>
-<approved hash="115,1,133.943,114.495,JP6,,,,,"/>
-<approved hash="115,1,174.583,155.135,JP7,,,,,"/>
-<approved hash="115,1,177.123,117.035,JP8,,,,,"/>
-<approved hash="115,1,213.953,39.5647,JP3,,,,,"/>
-<approved hash="115,2,36.1531,110.49,SJ3,,,,,"/>
-<approved hash="115,2,25.4,149.183,SJ4,,,,,"/>
-<approved hash="115,3,120.692,83.6888,SV1,,,,,"/>
-<approved hash="115,3,44.4923,83.6888,SV3,,,,,"/>
-<approved hash="115,1,215.663,130.679,JP4,,,,,"/>
-<approved hash="115,1,248.683,130.679,JP12,,,,,"/>
-<approved hash="115,1,30.48,14.4187,BAT1,,,,,"/>
-<approved hash="115,1,211.413,64.9647,JP11,,,,,"/>
-<approved hash="115,3,85.1323,144.649,SV2,,,,,"/>
-<approved hash="115,2,19.05,111.167,SJ8,,,,,"/>
 </errors>
 </schematic>
 </drawing>
